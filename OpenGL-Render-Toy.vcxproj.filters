@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\header">
+      <UniqueIdentifier>{1d705984-59b3-4b53-b452-fa22a29b67f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vendor">
+      <UniqueIdentifier>{3d45be57-2f3c-42f2-a63f-412e681e9704}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vendor\glad\src\glad.c">
+      <Filter>Source Files\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>Source Files\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>Source Files\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>Source Files\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\postprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_pipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input_management.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor_settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor_content.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\attributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\scene_object.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\postprocess.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_pipeline.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render_texture.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer_console.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer_ui.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer_window.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input_management.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gizmos.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\attributes.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transform.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor_settings.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor_content.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor_resource.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\instance_util.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\singleton_util.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_system.h">
+      <Filter>Source Files\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
